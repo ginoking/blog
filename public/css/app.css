@@ -1,0 +1,25 @@
+#pb .card {
+  width: 50%;
+  border: lightgreen 1px solid;
+}
+#pb .card .title {
+  color: lightpink;
+  font-size: 30px;
+}
+#pb .card .description p {
+  font-size: 16px;
+  color: lightgray;
+}
+
+#home .card {
+  width: 50%;
+  border: lightskyblue 1px solid;
+}
+#home .card .title {
+  color: lightblue;
+  font-size: 30px;
+}
+#home .card .description p {
+  font-size: 16px;
+  color: lightgray;
+}
