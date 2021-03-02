@@ -7,10 +7,15 @@
     <title>安安</title>
 
     <link rel="stylesheet" href="/css/app.css">
+    <script src="/js/app.js"></script>
+    
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     @include('layouts.header')
     @yield('content')
     @include('layouts.footer')
+
+    @include('layouts.js')
 </body>
 </html>

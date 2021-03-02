@@ -1,5 +1,10 @@
 @import "./main.scss";
+@import "./fonts/SyneMono.css";
 
+
+body {
+    font-family: 'Syne Mono', monospace;
+}
 
 #home {
     .card {
