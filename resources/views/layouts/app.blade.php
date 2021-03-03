@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>安安</title>
 
-    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <link rel="stylesheet" href="/css/app.css">
 
     <?php $asset_ver = env('MIX_ASSET_VER')?>
     <script src="{{ mix("/js/{$asset_ver}/app.js") }}"></script>
