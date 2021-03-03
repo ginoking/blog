@@ -11,8 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-const asset_version = process.env.MIX_ASSET_VER
+// const asset_version = process.env.MIX_ASSET_VER
 
-mix.js('resources/js/app.js', `public/js/${asset_version}/app.js`)
+mix.js('resources/js/app.js', `public/js`)
     .sass('resources/css/app.scss', 'public/css')
     .version();

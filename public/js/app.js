@@ -7,13 +7,7 @@
   \*****************************/
 /***/ (() => {
 
-function printMessage(message) {
-  document.getElementById('message').innerHTML = message;
-}
 
-var test = function test() {
-  return 'hi hi';
-};
 
 /***/ }),
 

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\PageController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +19,5 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/pb', function () {
-    return view('pb');
-});
+Route::get('/pb', [PageController::class, 'pb']);
 

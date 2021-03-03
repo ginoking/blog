@@ -1,4 +1,1 @@
-<p id="message"></p>
-<script>
-	// printMessage('testing')
-</script>
+<script src="{{ mix('/js/app.js') }}"></script>
