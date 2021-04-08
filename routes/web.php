@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +22,7 @@ Route::get('/', function () {
 });
 
 Route::get('/pb', [PageController::class, 'pb']);
+
+Route::resource('products', ProductController::class);
+Route::resource('orders', OrderController::class);
 
