@@ -13,5 +13,7 @@
     @include('layouts.footer')
 
     @include('layouts.js')
+
+    @yield('localJS')
 </body>
 </html>
