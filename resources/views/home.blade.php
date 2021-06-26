@@ -8,9 +8,4 @@
 
 
 @section('localJS')
-<script>
-    $(document).ready(function(){
-        alert(123)
-    })
-</script>
 @endsection
