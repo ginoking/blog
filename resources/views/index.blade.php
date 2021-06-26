@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class='no-js' >
-	
+    
 	<head>
         @include('layouts.meta')
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -10,9 +10,7 @@
 		<![endif]-->
 		@include('layouts.css')
 	</head>
-	
 	<body>
-		
 		<!--=============================================================================
 			Preloader
 		===============================================================================-->
@@ -2563,8 +2561,5 @@
 		<!-- <script src='js/smoothscroll.js' ></script> -->
 		<!-- <script src='js/script.js' ></script> -->
 		@include('layouts.js')
-		
-		
 	</body>
-	
 </html>
