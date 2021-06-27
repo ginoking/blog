@@ -1,7 +1,8 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 @import "./main.scss";
 @import "./fonts/SyneMono.css";
-@import "~ionicons-css/src/icon.css";
-
+@import "./fonts/ionicons.min.css";
 
 body {
     font-family: 'Syne Mono', monospace;

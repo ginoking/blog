@@ -30,11 +30,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,600,300|Playfair+Display:700italic,400italic|Crimson+Text:400italic,600italic|Open+Sans:400,700);
 /* tempate 用的css */
 @import "./color-default.css";
-@import "~ionicons-css/src/icon.css";
 @import "./magnific-popup.css";
 @import "./owl.carousel.css";
 @import "./owl.theme.css";
 @import "./owl.transitions.css";
+
 /* tempate 用的css */
 /*=======================================================================
 	General CSS
