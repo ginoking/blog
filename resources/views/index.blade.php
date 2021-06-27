@@ -16,7 +16,7 @@
 		===============================================================================-->
 		<div id='preloader' >
 			<div class='loader' >
-				<img src='img/load.gif' alt='symp' >
+				<img src='/images/load.gif' alt='symp' >
 			</div>
 		</div>
 		<!--=============================================================================
@@ -31,7 +31,7 @@
 					<div class='transition-mask' ></div>
 					<div class='front-person-img' >
 						<!--person's image-->
-						<img src='img/man1.png' alt='Symp' >
+						<img src='/images/man1.png' alt='Symp' >
 						<!--/person's image-->
 					</div>
 					<!--person's titles-->
@@ -88,7 +88,7 @@
 						<div class='row' >
 							<div class='col-md-4' >
 								<div class='about-person-img' >
-									<img src='img/man2.png' alt='symp'>
+									<img src='/images/man2.png' alt='symp'>
 								</div>
 							</div>
 							<div class='col-md-8 about-info' >
@@ -354,51 +354,34 @@
 				Resume Section
 			===============================================================================-->
 			<section id='resume' class='resume-section section' >
-				
 				<div class='container' >
 					<div class='row' >
 						<div class='col-md-6 col-md-offset-3' >
 							<div class='section-header text-center' >
-								
 								<h2 class='animate text-over-block' >My Resume</h2>
-								
 								<!--divider-->
 								<div class='divider-draft center' ></div>
-								<!--/divider-->
-								
-								
 							</div>
 						</div>
 					</div>
 				</div>
-				
 				<div class='timeline-block section-block' >
 					<div class='container' >
 						<ul class='timeline' >
-							
 							<li class='timeline-header' >
 								<h4>Education</h4>
 							</li>
-							
 							<li>
-								
 								<div class='timeline-desc' >
-									
 									<h4>2005-2007</h4>
-									
 								</div>
-								
 								<div class='timeline-content' >
-									
 									<h4>Masters Degree</h4>
 									<span>@CSS College Larkana</span>
-									
 									<p>
 										Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo.
 									</p>
-									
 								</div>
-								
 							</li>
 							
 							<li class='inverse' >
@@ -1390,7 +1373,7 @@
 							<div class='item' data-groups='["all","web","photography"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/1.jpg' >
+									<img alt='symp' src='/images/portfolio/1.jpg' >
 									
 									<div class='caption' >
 										
@@ -1407,7 +1390,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/1.jpg' class='image-link' >
+													<a href='/images/portfolio/1.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1425,7 +1408,7 @@
 							<div class='item' data-groups='["all","photography","tech"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/2.jpg' >
+									<img alt='symp' src='/images/portfolio/2.jpg' >
 									
 									<div class='caption' >
 										
@@ -1442,7 +1425,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/2.jpg' class='image-link' >
+													<a href='/images/portfolio/2.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1460,7 +1443,7 @@
 							<div class='item' data-groups='["all","web","tech"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/3.jpg' >
+									<img alt='symp' src='/images/portfolio/3.jpg' >
 									
 									<div class='caption' >
 										
@@ -1477,7 +1460,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/3.jpg' class='image-link' >
+													<a href='/images/portfolio/3.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1495,7 +1478,7 @@
 							<div class='item' data-groups='["all","web"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/4.jpg' >
+									<img alt='symp' src='/images/portfolio/4.jpg' >
 									
 									<div class='caption' >
 										
@@ -1512,7 +1495,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/4.jpg' class='image-link' >
+													<a href='/images/portfolio/4.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1530,7 +1513,7 @@
 							<div class='item' data-groups='["all","tech"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/5.jpg' >
+									<img alt='symp' src='/images/portfolio/5.jpg' >
 									
 									<div class='caption' >
 										
@@ -1547,7 +1530,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/5.jpg' class='image-link' >
+													<a href='/images/portfolio/5.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1565,7 +1548,7 @@
 							<div class='item' data-groups='["all","photography"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/6.jpg' >
+									<img alt='symp' src='/images/portfolio/6.jpg' >
 									
 									<div class='caption' >
 										
@@ -1582,7 +1565,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/6.jpg' class='image-link' >
+													<a href='/images/portfolio/6.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1600,7 +1583,7 @@
 							<div class='item' data-groups='["all","web"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/7.jpg' >
+									<img alt='symp' src='/images/portfolio/7.jpg' >
 									
 									<div class='caption' >
 										
@@ -1617,7 +1600,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/7.jpg' class='image-link' >
+													<a href='/images/portfolio/7.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1635,7 +1618,7 @@
 							<div class='item' data-groups='["all","tech"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/8.jpg' >
+									<img alt='symp' src='/images/portfolio/8.jpg' >
 									
 									<div class='caption' >
 										
@@ -1652,7 +1635,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/8.jpg' class='image-link' >
+													<a href='/images/portfolio/8.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1670,7 +1653,7 @@
 							<div class='item' data-groups='["all","photography"]' >
 								<div class='inner' >
 									
-									<img alt='symp' src='img/portfolio/9.jpg' >
+									<img alt='symp' src='/images/portfolio/9.jpg' >
 									
 									<div class='caption' >
 										
@@ -1687,7 +1670,7 @@
 												</li>
 												
 												<li>
-													<a href='img/portfolio/9.jpg' class='image-link' >
+													<a href='/images/portfolio/9.jpg' class='image-link' >
 														<i class='ion-ios-search' ></i>
 													</a>
 												</li>
@@ -1798,7 +1781,7 @@
 								<div class='post' >
 									
 									<div class='media' >
-										<img alt='symp' src='img/bg2.jpg' >
+										<img alt='symp' src='/images/bg2.jpg' >
 									</div>
 									
 									<div class='content' >
@@ -1846,7 +1829,7 @@
 								<div class='post' >
 									
 									<div class='media' >
-										<img alt='symp' src='img/bg2.jpg' >
+										<img alt='symp' src='/images/bg2.jpg' >
 									</div>
 									
 									<div class='content' >
@@ -1894,7 +1877,7 @@
 								<div class='post' >
 									
 									<div class='media' >
-										<img alt='symp' src='img/bg2.jpg' >
+										<img alt='symp' src='/images/bg2.jpg' >
 									</div>
 									
 									<div class='content' >

@@ -1,5 +1,15 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/style.css": "/css/style.css",
     "/css/app.css": "/css/app.css",
-    "/css/style.css": "/css/style.css"
+    "/images/bg-funfacts.jpg": "/images/bg-funfacts.jpg",
+    "/images/bg1.jpg": "/images/bg1.jpg",
+    "/images/bg2.jpg": "/images/bg2.jpg",
+    "/images/bg3.jpg": "/images/bg3.jpg",
+    "/images/bg9.jpg": "/images/bg9.jpg",
+    "/images/grabbing.png": "/images/grabbing.png",
+    "/images/img4.jpg": "/images/img4.jpg",
+    "/images/load.gif": "/images/load.gif",
+    "/images/man1.png": "/images/man1.png",
+    "/images/man2.png": "/images/man2.png"
 }
