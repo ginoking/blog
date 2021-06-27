@@ -354,7 +354,7 @@ body.section-show .section.active{
 =======================================================================*/
 body.section-show .transition-mask{
 	position:absolute;
-	top:260px;
+	top:111px;
 	height:500px;
 	width:500px;
 	left:0;
@@ -446,7 +446,7 @@ body.section-show .transition-mask:before{
 }
 .front-heading{
 	text-align:center;
-	margin-top:190px;
+	margin-top:140px;
 }
 .front-heading > h2{
 	font-size:55px;
@@ -474,7 +474,8 @@ body.section-show .transition-mask:before{
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:200px auto;
+	/* margin:200px auto; */
+	margin: 50px auto;
 	margin-bottom:0;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
