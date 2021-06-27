@@ -1,5 +1,10 @@
 import $ from 'jquery';
 window.$ = window.jQuery = $;
+require('./jquery.stellar.min.js');
+require('./owl.carousel.min.js');
+require('./jquery.magnific-popup.min.js');
+// require('./smoothscroll.js');
+require('./validator.min.js');
 
 $(function(){
 	// "use strict";
@@ -53,7 +58,7 @@ $(function(){
 		e.preventDefault();
 		var section = $('#' + $(this).data('section'));
 		
-		if( section.size() != 0 ){
+		if( section.length != 0 ){
 			
 			$('body').addClass('section-show');
 			

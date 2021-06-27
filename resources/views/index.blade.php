@@ -19,112 +19,59 @@
 				<img src='img/load.gif' alt='symp' >
 			</div>
 		</div>
-		
-		
-		
 		<!--=============================================================================
 			Main Wrapper
 		===============================================================================-->
 		<div id='wrapper' >
-			
 			<!--=============================================================================
 				Front Section
 			===============================================================================-->
 			<section class='front-section' >
-				
 				<div class='container' >
-					
-					
 					<div class='transition-mask' ></div>
-					
-					
 					<div class='front-person-img' >
-						
 						<!--person's image-->
 						<img src='img/man1.png' alt='Symp' >
 						<!--/person's image-->
-						
 					</div>
-					
 					<!--person's titles-->
 					<div class='front-person-titles' >
-						
 						<!--title1-->
 						<span class='t1' >
 							Designer
 						</span>
-						<!--/title1-->
-						
 						<!--title2-->
 						<span class='t2' >
 							Gamer guy
 						</span>
-						<!--/title2-->
-						
 						<!--title3-->
 						<span class='t3' >
 							Freelancer
-						</span>
-						<!--/title3-->
-						
+						</span>		
 					</div>
 					<!--/person's titles-->
-					
 					<nav class='front-person-links' >
-						
-						<!--
-							navigation links, data-section attribute points towards the section with id to be opened. 
-						-->
-						
 						<ul>
-							
 							<li>
 								<a href='#' data-section='about' >About Me</a>
 							</li>
-							
 							<li>
 								<a href='#' data-section='resume' >Resume</a>
 							</li>
-							
-							<li>
-								<a href='#' data-section='services' >Services</a>
-							</li>
-							
 							<li>
 								<a href='#' data-section='portfolio' >Portfolio</a>
 							</li>
-							
 							<li>
 								<a href='#' data-section='blog' >My Blog</a>
 							</li>
-							
-							<li>
-								<a href='#' data-section='contact' >Contact</a>
-							</li>
-							
-							<li>
-								<a href='#' >Hire Me!</a>
-							</li>
-							
 						</ul>
-						
 					</nav>
-					
-					
-					
 					<div class='front-heading text-center' >
-						
 						<h2>
 							Johny Doe
 						</h2>
-						
-					
-						
 					</div>
-					
-					
 				</div>
-				
 			</section>
 			<!--=============================================================================
 				/Front Section
@@ -1445,7 +1392,7 @@
 							
 						</div>
 						
-						<div class='row' >
+						<div class='row justify-content-center' >
 							
 							<div class='col-md-8 col-md-offset-2' >
 								
@@ -1457,8 +1404,8 @@
 										</p>
 										
 										<div class='author' >
-											<h4>Jack Smith</h4>
-											<p>CEO at Google</p>
+											<h4>Jack Smith123</h4>
+											<p>CEO at Google?????</p>
 										</div>
 									</div>
 									
