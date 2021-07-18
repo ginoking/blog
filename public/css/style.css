@@ -1262,7 +1262,7 @@ body.section-show .transition-mask:before{
 	position:relative;
 	z-index:10;
 	margin-top:20px;
-	margin-bottom:60px;
+	/* margin-bottom:20px; */
 }
 .info-list:before,
 .info-list:after{

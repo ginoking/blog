@@ -1,184 +1,32 @@
-import $ from 'jquery';
-window.$ = window.jQuery = $;
-require('./jquery.stellar.min.js');
-require('./owl.carousel.min.js');
-require('./jquery.magnific-popup.min.js');
-// require('./smoothscroll.js');
-require('./validator.min.js');
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
 
-$(function(){
-	// "use strict";
+require('./bootstrap');
 
-	/*=========================================================================
-		Initializing stellar.js Plugin
-	=========================================================================*/
-	// $('.section').stellar({
-	// 	horizontalScrolling: false
-	// });
-	
-	
-	$(window).on('load', function(){
-	
-		$('body').addClass('loaded');
-	
-		
-		/*=========================================================================
-			Portfolio Grid
-		=========================================================================*/
-		var grid = $('#portfolio-grid');
-		grid.shuffle({
-			itemSelector: '.item'
-		});
-		
-		$('#portfolio-filters > ul > li > a').on('click', function (e) {
-			e.preventDefault();
-			var groupName = $(this).attr('data-group');
-			$('#portfolio-filters > ul > li > a').removeClass('active');
-			$(this).addClass('active');
-			grid.shuffle('shuffle', groupName );
-		});
-		
-		$('a.image-link').magnificPopup({
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-fade',
-			gallery: {
-				enabled: true
-			}
-		});
-	
-	});
-	
-	
-	
-	/*=========================================================================
-		Links Navigation System
-	=========================================================================*/
-	$('.front-person-links > ul > li > a[data-section]').on('click', function(e){
-		e.preventDefault();
-		var section = $('#' + $(this).data('section'));
-		
-		if( section.length != 0 ){
-			
-			$('body').addClass('section-show');
-			
-			section.addClass('active');
-		
-		}
-		
-	});
-	$('.close-btn').on('click', function(){
-		$('body').removeClass('section-show');
-		$('section.active').removeClass('active');
-	});
-	
-	
-	
-	/*=========================================================================
-		Testimonials Slider
-	=========================================================================*/
-	$('.testimonials-slider').owlCarousel({
-		singleItem: true
-	});
-	
-	
-	
-	/*=========================================================================
-		Skill Bar's Percent Initialization from attribute data-percent
-	=========================================================================*/
-	$('.skill-bar').each(function(){
-		var $this = $(this),
-			percent = parseInt( $this.data('percent'), 10 );
-		
-		$this.find('.bar').css('width', percent + '%');
-	});
-	
-	
-	
-	
-	/*=========================================================================
-		Contact Form
-	=========================================================================*/
-	function isJSON(val){
-		var str = val.replace(/\\./g, '@').replace(/"[^"\\\n\r]*"/g, '');
-		return (/^[,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]*$/).test(str);
-	}
-	$('#contact-form').validator().on('submit', function (e) {
-		
-		if (!e.isDefaultPrevented()) {
-			// If there is no any error in validation then send the message
-			
-			e.preventDefault();
-			var $this = $(this),
-				
-				//You can edit alerts here
-				alerts = {
-				
-					success: 
-					"<div class='form-group' >\
-						<div class='alert alert-success alert-dismissible' role='alert'> \
-							<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
-								<i class='ion-ios-close-empty' ></i> \
-							</button> \
-							<strong>Message Sent!</strong> We'll be in touch as soon as possible\
-						</div>\
-					</div>",
-					
-					
-					error: 
-					"<div class='form-group' >\
-						<div class='alert alert-danger alert-dismissible' role='alert'> \
-							<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
-								<i class='ion-ios-close-empty' ></i> \
-							</button> \
-							<strong>Error!</strong> Sorry, an error occurred. Try again.\
-						</div>\
-					</div>"
-					
-				};
-			
-			$.ajax({
-			
-				url: 'mail.php',
-				type: 'post',
-				data: $this.serialize(),
-				success: function(data){
-					
-					if( isJSON(data) ){
-						
-						data = $.parseJSON(data);
-						
-						if(data['error'] == false){
-							
-							$('#contact-form-result').html(alerts.success);
-							
-							$('#contact-form').trigger('reset');
-							
-						}else{
-							
-							$('#contact-form-result').html(
-							"<div class='form-group' >\
-								<div class='alert alert-danger alert-dismissible' role='alert'> \
-									<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
-										<i class='ion-ios-close-empty' ></i> \
-									</button> \
-									"+ data['error'] +"\
-								</div>\
-							</div>"
-							);
-							
-						}
-						
-						
-					}else{
-						$('#contact-form-result').html(alerts.error);
-					}
-					
-				},
-				error: function(){
-					$('#contact-form-result').html(alerts.error);
-				}
-			});
-		}
-	});
+window.Vue = require('vue').default;
+
+/**
+ * The following block of code may be used to automatically register your
+ * Vue components. It will recursively scan this directory for the Vue
+ * components and automatically register them with their "basename".
+ *
+ * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ */
+
+// const files = require.context('./', true, /\.vue$/i)
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+const app = new Vue({
+    el: '#app',
 });

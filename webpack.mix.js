@@ -12,7 +12,5 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/css/app.scss', 'public/css')
-    .postCss('resources/css/style.css', 'public/css/style.css')
-    .copyDirectory('resources/img', 'public/images')
-    .sourceMaps();
+    .vue()
+    .sass('resources/sass/app.scss', 'public/css');
